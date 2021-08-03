@@ -37,7 +37,7 @@ will be ignored and fermentrack will be accessed on port 8080 which is the defau
 
     version: '3'
     services:
-    fermentrack:
+      fermentrack:
         image: mpse2/fermentrack-docker
         container_name: fermentrack
         restart: always
@@ -56,7 +56,7 @@ If you dont need the functionallity described above use the following configurat
 
     version: '3'
     services:
-    fermentrack:
+      fermentrack:
         image: mpse2/fermentrack-docker
         container_name: fermentrack
         restart: always
